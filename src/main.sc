@@ -10,10 +10,11 @@ theme: /
         event: noMatch || toState = "./"
 
     state: Hello
-        intent!: /hello
-        a: YOOOOY MAN 
+        q!: привет
+        intent!: /sys/aimylogic/ru/hello
+        a: YOOOOY MAN
         go!: /Name
-    
+
     state: Name
         a: What's your name?
         intent: /Сергей || toState = "/Sergey"
