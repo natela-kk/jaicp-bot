@@ -42,6 +42,17 @@
       "refs" : [ ]
     },
     "priority" : 0
+  }, {
+    "path" : "/how do you do",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "how do you do"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "priority" : 0
   } ],
   "entities" : [ ],
   "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ],

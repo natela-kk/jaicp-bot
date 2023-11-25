@@ -5,10 +5,17 @@ theme: /
     state: Start
         q!: $regex</start>
         a: Let's start.
+        a: yoy
+        intent: /how do you do || toState = "/fine"
+        event: noMatch || toState = "./"
 
     state: Hello
         intent!: /hello
         a: YOOOOY MAN 
+        go!: /WhatsUp
+    
+    state: WhatsUp
+        a: What's up?
 
     state: Bye
         intent!: /bye
@@ -21,3 +28,7 @@ theme: /
     state: Match
         event!: match
         a: {{$context.intent.answer}}
+
+    state: fine
+        random: 
+            a: I'm fine, thank you
