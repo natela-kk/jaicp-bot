@@ -16,6 +16,8 @@ theme: /
     
     state: Name
         a: What's your name?
+        intent: /Сергей || toState = "/Sergey"
+        event: noMatch || toState = "./"
 
     state: Bye
         intent!: /bye

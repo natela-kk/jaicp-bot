@@ -21,6 +21,32 @@
     }
   },
   "intents" : [ {
+    "path" : "/Сергей",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Сережа"
+    }, {
+      "text" : "Серёжа"
+    }, {
+      "text" : "Сергей"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Пахнешь слабостью",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
     "path" : "/bye",
     "enabled" : true,
     "shared" : false,
