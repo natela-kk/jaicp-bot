@@ -5,7 +5,7 @@ theme: /
     state: Start
         q!: $regex</start>
         a: Let's start.
-        a: yoy
+        go!: /Name
         intent: /how do you do || toState = "/fine"
         event: noMatch || toState = "./"
 
@@ -17,7 +17,8 @@ theme: /
     state: Name
         a: What's your name?
         intent: /Сергей || toState = "/Sergey"
-        event: noMatch || toState = "./"
+        intent: /Саша || toState = "/Sasha"
+        event: noMatch || toState = "/RandomName"
 
     state: Bye
         intent!: /bye
@@ -25,8 +26,20 @@ theme: /
 
     state: NoMatch
         event!: noMatch
-        a: I do not understand. You said: {{$request.query}}
+        a: что отвечать на {{$request.query}} я не шарю
+        go!: /Bye
 
     state: Match
         event!: match
         a: {{$context.intent.answer}}
+
+    state: Sergey
+        a: Пахнешь слабостью...😌
+        event: noMatch || toState = "/NoMatch"
+
+    state: Sasha
+        a: Всем втбшникам хорошего дня!😜
+        event: noMatch || toState = "/NoMatch"
+
+    state: RandomName
+        a: Привет, {{$request.query}}! Хорошего денечка😘

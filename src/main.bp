@@ -33,5 +33,20 @@
     "name" : "Sergey",
     "x" : 360,
     "y" : 0
+  }, {
+    "id" : "/Sergey",
+    "name" : "Sergey",
+    "x" : 345,
+    "y" : -43
+  }, {
+    "id" : "/Sasha",
+    "name" : "Sasha",
+    "x" : 351,
+    "y" : 399
+  }, {
+    "id" : "/RandomName",
+    "name" : "RandomName",
+    "x" : 688,
+    "y" : 5
   } ]
 }

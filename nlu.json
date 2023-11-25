@@ -25,6 +25,14 @@
     "enabled" : true,
     "shared" : false,
     "phrases" : [ {
+      "text" : "Serejia"
+    }, {
+      "text" : "Sereja"
+    }, {
+      "text" : "Serezha"
+    }, {
+      "text" : "Sergey"
+    }, {
       "text" : "Сережа"
     }, {
       "text" : "Серёжа"
@@ -78,6 +86,26 @@
     "classificationRules" : {
       "refs" : [ ]
     },
+    "priority" : 0
+  }, {
+    "path" : "/Саша",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Alexandra"
+    }, {
+      "text" : "Sasha"
+    }, {
+      "text" : "Саня"
+    }, {
+      "text" : "Александра"
+    }, {
+      "text" : "Саша"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
     "priority" : 0
   } ],
   "entities" : [ ],
