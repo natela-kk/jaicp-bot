@@ -12,10 +12,10 @@ theme: /
     state: Hello
         intent!: /hello
         a: YOOOOY MAN 
-        go!: /WhatsUp
+        go!: /Name
     
-    state: WhatsUp
-        a: What's up?
+    state: Name
+        a: What's your name?
 
     state: Bye
         intent!: /bye
@@ -28,7 +28,3 @@ theme: /
     state: Match
         event!: match
         a: {{$context.intent.answer}}
-
-    state: fine
-        random: 
-            a: I'm fine, thank you
