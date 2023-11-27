@@ -61,4 +61,4 @@ theme: /
         
     state: test
         q!: @duckling.email 
-        a: попал в почту
+        a: зачем мне твоя почта...
