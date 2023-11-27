@@ -13,7 +13,7 @@ theme: /
         q!: привет
         intent!: /sys/aimylogic/ru/hello
         a: YOOOOY MAN
-        go!: /Welcome
+        go!: /Name
 
 
 state: Welcome
@@ -34,7 +34,7 @@ state: Welcome
         a: What's your name?
         intent: /Сергей || toState = "/Sergey"
         intent: /Саша || toState = "/Sasha"
-        intent: /Сеня || toState = "/Senya"
+        intent: /Сеня || toState = "/Welcome"
         event: noMatch || toState = "/RandomName"
 
     state: Bye
