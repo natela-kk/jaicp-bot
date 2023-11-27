@@ -122,6 +122,26 @@
     },
     "patterns" : [ ],
     "priority" : 0
+  }, {
+    "path" : "/Степа",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Stepan"
+    }, {
+      "text" : "Stepa"
+    }, {
+      "text" : "Степан"
+    }, {
+      "text" : "Стёпа"
+    }, {
+      "text" : "Степа"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
   } ],
   "entities" : [ ],
   "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ],

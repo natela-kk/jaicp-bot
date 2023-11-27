@@ -36,13 +36,13 @@
   }, {
     "id" : "/Sergey",
     "name" : "Sergey",
-    "x" : 345,
-    "y" : -43
+    "x" : 362,
+    "y" : -151
   }, {
     "id" : "/Sasha",
     "name" : "Sasha",
-    "x" : 351,
-    "y" : 399
+    "x" : 350,
+    "y" : 429
   }, {
     "id" : "/RandomName",
     "name" : "RandomName",
@@ -51,7 +51,12 @@
   }, {
     "id" : "/Senya",
     "name" : "Senya",
-    "x" : 348,
-    "y" : -301
+    "x" : 367,
+    "y" : -463
+  }, {
+    "id" : "/Stepa",
+    "name" : "Stepa",
+    "x" : 362,
+    "y" : 140
   } ]
 }
