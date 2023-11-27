@@ -62,3 +62,7 @@ theme: /
     state: test
         q!: @duckling.email 
         a: зачем мне твоя почта... а именно {{$parseTree["_duckling.email"]}}
+        
+    state: rap
+        q!: @rap_singers
+        a: рэп - супер
