@@ -58,3 +58,7 @@ theme: /
 
     state: Ilia
         a: H@1l F$r&r! 
+        
+    state: test
+        q!: @duckling.email 
+        a: попал в почту
