@@ -61,4 +61,4 @@ theme: /
         
     state: test
         q!: @duckling.email 
-        a: зачем мне твоя почта... а именно {{parseTree["_duckling.email"]}}
+        a: зачем мне твоя почта... а именно {{$parseTree["_duckling.email"]}}
