@@ -48,5 +48,10 @@
     "name" : "RandomName",
     "x" : 688,
     "y" : 5
+  }, {
+    "id" : "/Senya",
+    "name" : "Senya",
+    "x" : 348,
+    "y" : -301
   } ]
 }
