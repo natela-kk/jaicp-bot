@@ -21,6 +21,7 @@ theme: /
         intent: /Саша || toState = "/Sasha"
         intent: /Сеня || toState = "/Senya"
         intent: /Степа || toState = "/Stepa"
+        intent: /Илья || toState = "/Ilia"
         event: noMatch || toState = "/RandomName"
 
     state: Bye
@@ -54,3 +55,6 @@ theme: /
 
     state: Stepa
         a: Здарова, ни**ер
+
+    state: Ilia
+        a: H**l F***r! 

@@ -109,6 +109,17 @@
     "patterns" : [ ],
     "priority" : 0
   }, {
+    "path" : "/Илья",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Илья"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "priority" : 0
+  }, {
     "path" : "/Сеня",
     "enabled" : true,
     "shared" : false,
