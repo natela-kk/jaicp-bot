@@ -57,4 +57,4 @@ theme: /
         a: Здарова, ни**ер
 
     state: Ilia
-        a: H**l F***r! 
+        a: H*%l F$*&r! 
