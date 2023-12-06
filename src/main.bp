@@ -63,5 +63,17 @@
     "name" : "Ilia",
     "x" : 372,
     "y" : -657
+  }, {
+    "id" : "/Ilia/ResponseYes",
+    "x" : 290,
+    "y" : 651
+  }, {
+    "id" : "/Ilia/ResponseNo",
+    "x" : 290,
+    "y" : 1095
+  }, {
+    "id" : "/Ilia/NoMatch",
+    "x" : 290,
+    "y" : 1438
   } ]
 }
